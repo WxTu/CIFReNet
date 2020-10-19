@@ -1,6 +1,6 @@
 # CIFReNet
 <span id="jump1"></span>
-![CIFReNet Show](./CIFReNet.png)
+![CIFReNet Show](./CIFReNet.jpg)
 
 ###  [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470715.pdf) | [BibTex](#jump2)
 
