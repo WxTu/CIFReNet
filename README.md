@@ -2,38 +2,40 @@
 <span id="jump1"></span>
 ![CIFReNet Show](./CIFReNet.jpg)
 
-###  [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470715.pdf) | [BibTex](#jump2)
+###  [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9032321)
 
-Rethinking Image Inpainting via a Mutual Encoder Decoder with Feature Equalizations .<br>
+Bin Jiang, [Wenxuan Tu](https://github.com/WxTu/CIFReNet/), Chao Yang, Junsong Yuan. Context-Integrated and Feature-Refined Network for Lightweight Object Parsing.<br>
 
-[Hongyu Liu](#jump1),  [Bin Jiang](#jump1), [Yibing Song](https://ybsong00.github.io/), [Wei Huang](#jump1) and [Chao Yang](#jump1).<br>
-In ECCV 2020 (Oral).
+IEEE Transactions on Image Processing, 29(1):5079-5093, 2020.<br>
+
+DOI: 10.1109/TIP.2020.2978583.<br>
 
 ### [License](https://raw.githubusercontent.com/nvlabs/SPADE/master/LICENSE.md)
 
 
 All rights reserved.
-Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
+Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) 
 
-The code is released for academic research use only. For commercial use, please contact [kumapower@hnu.edu.cn](#jump1).
+The code is released for academic research use only. For commercial use, please contact [twx@hnu.edu.cn].
 
 
 ## Installation
 
 Clone this repo.
 ```bash
-git clone https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE.git
+git clone https://github.com/WxTu/CIFReNet.git
 ```
 
-Prerequisites
+## Installation
+* Windows or Linux
 * Python3
-* Pytorch >=1.0
-* Tensorboard
+* Pytorch(0.3+)
+* Numpy
 * Torchvision
-* pillow
+* Matplotlib
 
 
-## Dataset Preparation
+## Preparation
 
 We use [Places2](http://places2.csail.mit.edu/), [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. To train a model on the full dataset, download datasets from official websites.
 
