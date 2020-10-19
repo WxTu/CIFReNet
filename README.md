@@ -31,7 +31,7 @@ git clone https://github.com/WxTu/CIFReNet.git
 ## Installation
 * Windows or Linux
 * Python3
-* Pytorch(0.3+)
+* [Pytorch(0.3+)](https://pytorch.org/)
 * Numpy
 * Torchvision
 * Matplotlib
@@ -44,20 +44,28 @@ We use [Cityscapes](https://www.cityscapes-dataset.com/), [Camvid](http://mi.eng
 Our backbone network is pre-trained on the ImageNet dataset provided by [F. Li et al](http://www.image-net.org/). You can download publically available pre-trained MobileNet v2 from their this [website](https://github.com/ansleliu/LightNet).
 
 ## Code Structure
-
-- `train.py`: the entry point for training.
-- `models/networks.py`: defines the architecture of all models
-- `options/`: creates option lists using `argparse` package. More individuals are dynamically added in other files as well.
-- `data/`: process the dataset before passing to the network.
-- `models/encoder.py`: defines the encoder.
-- `models/decoder.py`: defines the decoder.
-- `models/PCconv.py`: defines the Multiscale Partial Conv, feature equalizations and two branch.
-- `models/MEDFE.py`: defines the loss, model, optimizetion, foward, backward and others.
+- `data/Dataset.py`: process the dataset before passing to the network.
+- `models/CIFReNet.py`: defines the architecture of the whole model.
+- `models/Backbone.py`: defines the encoder.
+- `models/Layers.py`: defines the DSP, MCIM, and others.
+- `utils/Config.py`: defines some hyper-parameters.
+- `utils/Process.py`: defines the process of data pretreatment.
+- `utils/Utils.py`: defines the loss, optimization, metrics, and others.
+- `utils/Visualization.py`: defines the data visualization.
+- `Train.py`: the entry point for training and validation.
+- `Test.py`: the entry point for testing.
 
 <span id="jump2"></span>
 
 ## Visualization
 ![Show](./visual.jpg)
+
+## Contact
+[twx@hnu.edu.cn](twx@hnu.edu.cn)
+
+[wenxuantu@163.com](wenxuantu@163.com)
+
+Any discussions or concerns are welcomed!
 
 ## Citation
 If you use this code for your research, please cite our papers.
@@ -75,10 +83,10 @@ If you use this code for your research, please cite our papers.
 
 [https://github.com/ansleliu/LightNet](https://github.com/ansleliu/LightNet)
 
-[https://github.com/ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+[https://github.com/meetshah1995/pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)
 
-[https://github.com/ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+[https://github.com/zijundeng/pytorch-semantic-segmentation](https://github.com/zijundeng/pytorch-semantic-segmentation)
 
-[https://github.com/ansleliu/LightNet](https://github.com/ansleliu/LightNet)
+[https://github.com/Tramac/awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch)
 
 
