@@ -8,7 +8,7 @@ Context-Integrated and Feature-Refined Network for Lightweight Object Parsing.<b
 
 Bin Jiang, [Wenxuan Tu](https://github.com/WxTu/CIFReNet/), Chao Yang, Junsong Yuan.<br>
 
-IEEE Transactions on Image Processing, 29:5079-5093, 2020.<br>
+IEEE Transactions on Image Processing, 29: 5079-5093, 2020.<br>
 
 DOI: 10.1109/TIP.2020.2978583.<br>
 
