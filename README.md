@@ -44,9 +44,9 @@ Our backbone network is pre-trained on the ImageNet dataset provided by [F. Li e
 
 ## Code Structure
 - `data/Dataset.py`: process the dataset before passing to the network.
-- `models/CIFReNet.py`: defines the architecture of the whole model.
-- `models/Backbone.py`: defines the encoder.
-- `models/Layers.py`: defines the DSP, MCIM, and others.
+- `model/CIFReNet.py`: defines the architecture of the whole model.
+- `model/Backbone.py`: defines the encoder.
+- `model/Layers.py`: defines the DSP, MCIM, and others.
 - `utils/Config.py`: defines some hyper-parameters.
 - `utils/Process.py`: defines the process of data pretreatment.
 - `utils/Utils.py`: defines the loss, optimization, metrics, and others.
