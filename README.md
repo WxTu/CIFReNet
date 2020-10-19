@@ -28,7 +28,6 @@ Clone this repo.
 git clone https://github.com/WxTu/CIFReNet.git
 ```
 
-## Installation
 * Windows or Linux
 * Python3
 * [Pytorch(0.3+)](https://pytorch.org/)
