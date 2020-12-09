@@ -43,7 +43,7 @@ We use [Cityscapes](https://www.cityscapes-dataset.com/), [Camvid](http://mi.eng
 Our backbone network is pre-trained on the ImageNet dataset provided by [F. Li et al](http://www.image-net.org/). You can download publically available pre-trained MobileNet v2 from this [website](https://github.com/ansleliu/LightNet).
 
 ## Code Structure
-- `data/Dataset.py`: process the dataset before passing to the network.
+- `data/Dataset.py`: processes the dataset before passing to the network.
 - `model/CIFReNet.py`: defines the architecture of the whole model.
 - `model/Backbone.py`: defines the encoder.
 - `model/Layers.py`: defines the DSP, MCIM, and others.
