@@ -16,7 +16,7 @@ DOI: 10.1109/TIP.2020.2978583.<br>
 
 
 All rights reserved.
-Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) 
+Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0). 
 
 The code is released for academic research use only. For commercial use, please contact [twx@hnu.edu.cn].
 
