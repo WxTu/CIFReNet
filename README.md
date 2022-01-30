@@ -71,11 +71,11 @@ If you use this code for your research, please cite our papers.
 ```
 @article{Jiang2020Context,
   title={Context-Integrated and Feature-Refined Network for Lightweight Object Parsing},
-  author={Bin Jiang, Wenxuan Tu, Chao Yang, Junsong Yuan},
+  author={Bin Jiang and Wenxuan Tu and Chao Yang and Junsong Yuan},
   journal={IEEE Transactions on Image Processing},
   volume={29},
   pages={5079-5093},
-  year={2020},
+  year={2020}
 }
 ```
 ## Acknowledgement
